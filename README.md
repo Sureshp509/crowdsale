@@ -15,10 +15,10 @@ Before you begin, ensure you have met the following requirements:
 ## Installation  
 To install the necessary dependencies, follow these steps:  
 
-Clone the repository:  git clone <repository-url>  
-git clone <repository-url>  
+Clone the repository:  
+git clone https://github.com/Sureshp509/crowdsale.git  
 Navigate to the project directory:  
-cd <project-directory>  
+cd crowdsale  
 Install dependencies:  
 npm install  
 
