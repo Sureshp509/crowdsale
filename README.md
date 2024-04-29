@@ -1,6 +1,8 @@
 ERC-20 Token Contract (MyToken.sol)
+
 Purpose:
-The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain. It allows for the creation of tokens with customizable properties such as name, symbol, decimal places, and fixed supply.
+The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain. 
+It allows for the creation of tokens with customizable properties such as name, symbol, decimal places, and fixed supply.
 
 Functionality:
 
