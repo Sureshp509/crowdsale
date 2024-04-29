@@ -1,19 +1,19 @@
 ERC-20 Token Contract (MyToken.sol)
 
 Purpose:
-The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain. 
-It allows for the creation of tokens with customizable properties such as name, symbol, decimal places, and fixed supply.
+The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain.   
+It allows for the creation of tokens with customizable properties such as name, symbol, decimal places, and fixed supply.  
 
 Functionality:
 
-name: Returns the name of the token.
-symbol: Returns the symbol of the token.
-decimals: Returns the number of decimal places used for token balances.
-totalSupply: Returns the total supply of tokens.
-balanceOf: Returns the balance of tokens for a given address.
-transfer: Transfers tokens from the sender's address to a specified recipient.
-approve: Allows a spender to withdraw tokens from the sender's address.
-transferFrom: Transfers tokens on behalf of the sender if approved by the sender.
+name: Returns the name of the token.  
+symbol: Returns the symbol of the token.  
+decimals: Returns the number of decimal places used for token balances.  
+totalSupply: Returns the total supply of tokens.  
+balanceOf: Returns the balance of tokens for a given address.  
+transfer: Transfers tokens from the sender's address to a specified recipient.  
+approve: Allows a spender to withdraw tokens from the sender's address.  
+transferFrom: Transfers tokens on behalf of the sender if approved by the sender.  
 
 Crowdsale Contract (Crowdsale.sol)
 Purpose:
