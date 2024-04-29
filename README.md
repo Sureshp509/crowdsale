@@ -1,4 +1,28 @@
-ERC-20 Token Contract (MyToken.sol)
+# Crowdsale and ERC-20 Token Contracts   
+
+This repository contains Solidity smart contracts for an ERC-20 token and a crowdsale, along with unit tests written in TypeScript for testing these contracts using Hardhat.  
+
+## Prerequisites  
+
+Before you begin, ensure you have met the following requirements:  
+
+- Node.js: [Download and install Node.js](https://nodejs.org/).  
+- npm (Node Package Manager): Included with Node.js installation.  
+- Hardhat: Install Hardhat globally using npm.  
+  ```sh  
+  npm install -g hardhat
+
+## Installation  
+To install the necessary dependencies, follow these steps:  
+
+Clone the repository:  
+git clone <repository-url>  
+Navigate to the project directory:  
+cd <project-directory>  
+Install dependencies:  
+npm install  
+
+## ERC-20 Token Contract (MyToken.sol)
 
 Purpose:
 The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain.   
@@ -15,7 +39,8 @@ transfer: Transfers tokens from the sender's address to a specified recipient.
 approve: Allows a spender to withdraw tokens from the sender's address.  
 transferFrom: Transfers tokens on behalf of the sender if approved by the sender.  
 
-Crowdsale Contract (Crowdsale.sol)
+## Crowdsale Contract (Crowdsale.sol)   
+
 Purpose:  
 The crowdsale contract facilitates the sale of ERC-20 tokens at a specified rate and implements a vesting schedule for distributed tokens. It also includes functionalities for starting, ending, and halting the sale if necessary.
   
@@ -29,7 +54,7 @@ scheduleVesting: Allows the owner to schedule a vesting plan for distributed tok
 releaseVestedTokens: Allows participants to release their vested tokens based on the vesting schedule.   
 
 
-Deployment and Interaction:  
+## Deployment and Interaction:  
 
 Deploy the ERC-20 token contract (MyToken.sol) to the Ethereum blockchain.  
 Deploy the crowdsale contract (Crowdsale.sol) and pass the address of the deployed token contract along with other parameters to the constructor.  
