@@ -4,7 +4,7 @@ Purpose:
 The ERC-20 token contract provides a standard interface for fungible tokens on the Ethereum blockchain.   
 It allows for the creation of tokens with customizable properties such as name, symbol, decimal places, and fixed supply.  
 
-Functionality:
+Functionality:  
 
 name: Returns the name of the token.  
 symbol: Returns the symbol of the token.  
@@ -16,24 +16,24 @@ approve: Allows a spender to withdraw tokens from the sender's address.
 transferFrom: Transfers tokens on behalf of the sender if approved by the sender.  
 
 Crowdsale Contract (Crowdsale.sol)
-Purpose:
+Purpose:  
 The crowdsale contract facilitates the sale of ERC-20 tokens at a specified rate and implements a vesting schedule for distributed tokens. It also includes functionalities for starting, ending, and halting the sale if necessary.
+  
+Functionality:  
 
-Functionality:
-
-startSale: Starts the crowdsale, allowing participants to buy tokens.
-endSale: Ends the crowdsale, preventing further token purchases.
-haltSale: Halts the crowdsale, preventing further token purchases temporarily.
-buyTokens: Allows participants to buy tokens by sending Ether to the contract.
-scheduleVesting: Allows the owner to schedule a vesting plan for distributed tokens.
-releaseVestedTokens: Allows participants to release their vested tokens based on the vesting schedule.
+startSale: Starts the crowdsale, allowing participants to buy tokens.  
+endSale: Ends the crowdsale, preventing further token purchases.  
+haltSale: Halts the crowdsale, preventing further token purchases temporarily.  
+buyTokens: Allows participants to buy tokens by sending Ether to the contract.  
+scheduleVesting: Allows the owner to schedule a vesting plan for distributed tokens.  
+releaseVestedTokens: Allows participants to release their vested tokens based on the vesting schedule.   
 
 
-Deployment and Interaction:
+Deployment and Interaction:  
 
-Deploy the ERC-20 token contract (MyToken.sol) to the Ethereum blockchain.
-Deploy the crowdsale contract (Crowdsale.sol) and pass the address of the deployed token contract along with other parameters to the constructor.
-Start the crowdsale by calling the startSale function.
-Participants can buy tokens by sending Ether to the crowdsale contract using the buyTokens function.
-The owner can schedule vesting for participants using the scheduleVesting function.
-Participants can release their vested tokens using the releaseVestedTokens function.
+Deploy the ERC-20 token contract (MyToken.sol) to the Ethereum blockchain.  
+Deploy the crowdsale contract (Crowdsale.sol) and pass the address of the deployed token contract along with other parameters to the constructor.  
+Start the crowdsale by calling the startSale function.  
+Participants can buy tokens by sending Ether to the crowdsale contract using the buyTokens function.  
+The owner can schedule vesting for participants using the scheduleVesting function.  
+Participants can release their vested tokens using the releaseVestedTokens function.  
