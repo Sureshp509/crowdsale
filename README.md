@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation  
 To install the necessary dependencies, follow these steps:  
 
-Clone the repository:  
+Clone the repository:  git clone <repository-url>  
 git clone <repository-url>  
 Navigate to the project directory:  
 cd <project-directory>  
